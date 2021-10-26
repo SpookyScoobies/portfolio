@@ -1,3 +1,5 @@
+/* HOME PAGE */
+
 .HPcontainerR,
 .HPcontainerL {
 
@@ -11,3 +13,37 @@
 .HPcontainerL {
     align-items: flex-start;
 }
+
+/* CASE STUDY / ABOUT ME SECTION */
+
+
+.CScontainerCcol {
+    flex-direction: column;
+    align-items: center;
+}
+
+.CScontainerCrow {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.CScontainerL {
+    flex-direction: column;
+}
+
+.CScontainerR {
+    flex-direction: column;
+}
+
+
+/* ABOUT STYLING */
+
+#aboutContainerCenter {
+    justify-content: center;
+}
+
+#aboutContainerContent {
+    justify-content: center;
+}
+
+/* END ABOUT STYLING*/

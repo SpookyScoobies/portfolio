@@ -165,17 +165,43 @@ h1 {
 }
 
 /* HOMEPAGE END */
+/* CASE STUDY / ABOUT ME SECTION */
+
+
+.CScontainerCcol {
+  display: flex;
+}
+
+.CScontainerCrow {
+  display: flex;
+}
+
+.CScontainerL {
+  display: flex;
+}
+
+.CScontainerR {
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* ABOUT STYLING */
 
 #aboutContainerCenter {
   display: flex;
-  justify-content: center;
 }
 
 #aboutContainerContent {
   display: flex;
-  justify-content: center;
 }
 
 /* END ABOUT STYLING*/

@@ -13,3 +13,22 @@
 .HPcontainerL img {
     width: 100%;
 }
+
+/* Case Study  */
+
+.CScontainerCcol,
+.CScontainerCrow,
+.CScontainerL,
+.CScontainerR {
+    flex-direction: column;
+}
+
+/* ABOUT STYLING */
+
+#aboutContainerCenter,
+#aboutContainerContent {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* END ABOUT STYLING*/
