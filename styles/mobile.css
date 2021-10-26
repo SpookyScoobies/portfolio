@@ -1,0 +1,15 @@
+* {
+    background-color: magenta;
+}
+
+/* HOME PAGE  */
+.HPcontainerR,
+.HPcontainerL {
+
+    flex-direction: column;
+}
+
+.HPcontainerR img,
+.HPcontainerL img {
+    width: 100%;
+}

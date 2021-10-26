@@ -1,0 +1,13 @@
+.HPcontainerR,
+.HPcontainerL {
+
+    flex-direction: column;
+}
+
+.HPcontainerR {
+    align-items: flex-end;
+}
+
+.HPcontainerL {
+    align-items: flex-start;
+}
