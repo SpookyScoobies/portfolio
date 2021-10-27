@@ -1,16 +1,16 @@
-* {
-  background-color: #f2c438;
+body {
+    background-color: #f2c438;
 }
 
 /* HOME PAGE  */
 .HPcontainerR,
 .HPcontainerL {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .HPcontainerR img,
 .HPcontainerL img {
-  width: 100%;
+    width: 100%;
 }
 
 /* Case Study  */
@@ -19,15 +19,25 @@
 .CScontainerCrow,
 .CScontainerL,
 .CScontainerR {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 /* ABOUT STYLING */
 
-#aboutContainerCenter,
-#aboutContainerContent {
-  flex-direction: column;
-  align-items: center;
+.aboutContainerCenter,
+.aboutContainerContent {
+    flex-direction: column;
 }
+
+.aboutContainerCenter {
+    align-items: center;
+}
+
+
+.aboutContainerContent {
+    align-items: center;
+}
+
+
 
 /* END ABOUT STYLING*/
