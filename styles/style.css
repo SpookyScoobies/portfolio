@@ -3,7 +3,6 @@ body {
   min-height: 100vh;
   font-family: Helvetica, sans-serif;
   background-color: #f2c438;
-
 }
 
 a {
@@ -205,24 +204,37 @@ header:not(.header) {
 
 #aboutContainerCenter {
   display: flex;
-  color: #A62F03;
-  text-shadow: 1px 1px #2f3659;
+  color: #3D4073;
+  text-shadow: 2px 2px white;
 }
 
 #aboutContainerContent {
   display: flex;
 }
 
-#aboutContainerContent,
-p {
+#aboutContainerContent p {
   background-color: #D9910D;
-
+  padding: 4vw;
+  margin: 5vw;
+  border-style: double;
+  border-color: #2f3659;
+  border-radius: 25px;
 }
 
 #aboutContainerContent img {
   width: 100%;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+  border-radius: 25px;
 }
 
 
 
 /* END ABOUT STYLING*/
+
+/* colors 
+lighter blue #3D4073
+darker blue #2f3659
+yellow #f2c438
+orange #d9910d
+red #A62f03 */

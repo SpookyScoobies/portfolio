@@ -24,18 +24,24 @@ body {
 
 /* ABOUT STYLING */
 
-.aboutContainerCenter,
-.aboutContainerContent {
+#aboutContainerCenter,
+#aboutContainerContent {
     flex-direction: column;
 }
 
-.aboutContainerCenter {
+#aboutContainerCenter {
     align-items: center;
 }
 
 
-.aboutContainerContent {
+#aboutContainerContent {
     align-items: center;
+}
+
+#aboutContainerContent img {
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    border: radius 25px;
 }
 
 
