@@ -160,16 +160,17 @@ header:not(.header) {
   display: flex;
   flex-direction: row;
   justify-items: center;
-  width: 30vw;
-  padding: 3vw;
+  padding: 18vw;
+  text-align: justify;
 }
+
 
 
 .HPcontainerR,
 .HPcontainerL {
   display: flex;
-
 }
+
 
 /* HOMEPAGE END */
 /* CASE STUDY / ABOUT ME SECTION */

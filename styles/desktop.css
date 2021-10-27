@@ -1,24 +1,55 @@
 /* HOME PAGE */
 
+.HPcontainerC {
+    font-size: xx-large;
+}
+
 .HPcontainerR,
 .HPcontainerL {
     flex-direction: column;
+
 }
 
-.HPcontainerC img {
-    width: 1%
+.plzwork {
+    width: 40vw;
 }
 
 .HPcontainerR {
     align-items: flex-end;
-    margin-right: 15vw;
-    width
+    width: 100%;
+    padding-right: 5vw;
 }
 
 .HPcontainerL {
     align-items: flex-start;
-    margin-left: 15vw;
+    width: 40vw;
+    padding-left: 4vw;
+}
 
+.imgIntro {
+    position: static;
+    top: -15px;
+    display: inline-block;
+    width: auto;
+    height: 60px;
+    max-width: none;
+    margin-top: -16px;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    cursor: help;
+}
+
+.beFancy:hover {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px)scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: p
+}
+
+.beFancy:hover {
+    left: -7 px;
+    margin-left: 0;
+    padding-right: 0;
 }
 
 /* CASE STUDY / ABOUT ME SECTION */
