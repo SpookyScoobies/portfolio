@@ -2,16 +2,23 @@
 
 .HPcontainerR,
 .HPcontainerL {
-
     flex-direction: column;
+}
+
+.HPcontainerC img {
+    width: 1%
 }
 
 .HPcontainerR {
     align-items: flex-end;
+    margin-right: 15vw;
+    width
 }
 
 .HPcontainerL {
     align-items: flex-start;
+    margin-left: 15vw;
+
 }
 
 /* CASE STUDY / ABOUT ME SECTION */
@@ -41,6 +48,7 @@
 #aboutContainerCenter {
     justify-content: center;
     font-size: x-large;
+    margin-top: 48px;
 }
 
 #aboutContainerContent {

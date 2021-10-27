@@ -39,9 +39,9 @@ body {
 }
 
 #aboutContainerContent img {
-    margin-left: 5vw;
-    margin-bottom: 5vw;
-    border: radius 25px;
+    width: 100%;
+    margin: 5vh;
+    padding: 2vh;
 }
 
 
