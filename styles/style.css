@@ -160,11 +160,14 @@ header:not(.header) {
   display: flex;
   flex-direction: row;
   justify-items: center;
-  padding: 18vw;
+  padding: 18vw 18vw 9vw 18vw;
   text-align: justify;
 }
 
 
+.HPbox {
+  width: 100%;
+}
 
 .HPcontainerR,
 .HPcontainerL {
@@ -194,11 +197,20 @@ header:not(.header) {
 
 
 
+.CSmidIMG img {
+  background-color: #3D4073;
+  border-radius: 25px;
+  border: #3D4073;
+}
 
 
-
-
-
+.CScontainerCcol {
+  background-color: #d9910d;
+  margin: 2vw;
+  padding: 1vw;
+  /* border: 1 solid #3D4073;
+  border: radius 25px; */
+}
 
 /* ABOUT STYLING */
 
