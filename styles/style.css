@@ -2,7 +2,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Helvetica, sans-serif;
-  background-color: #f2c438;
+  background-color: #2f3659;
 }
 
 a {
@@ -208,8 +208,8 @@ header:not(.header) {
   background-color: #d9910d;
   margin: 2vw;
   padding: 1vw;
-  /* border: 1 solid #3D4073;
-  border: radius 25px; */
+  border: white;
+  border-radius: 25px;
 }
 
 /* ABOUT STYLING */
@@ -223,8 +223,8 @@ header:not(.header) {
 
 #aboutContainerCenter {
   display: flex;
-  color: #3D4073;
-  text-shadow: 2px 2px white;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 
 #aboutContainerContent {
@@ -245,7 +245,7 @@ header:not(.header) {
   width: 100%;
   margin: 0vh 5vh 5vh 0vh;
   padding: 1vh;
-  border: 2vw double #2f3659;
+  border: 2vw double #d9910d;
   border-radius: 25px;
 
 }
