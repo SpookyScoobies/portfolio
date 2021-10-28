@@ -55,11 +55,6 @@
 .CScontainerCcol {
     flex-direction: column;
     align-items: center;
-    background-color: #d9910d;
-    margin: 2vw;
-    padding: 1vw;
-    border: 1vw solid #2f3659;
-    border: radius 25px;
 }
 
 .CScontainerCrow {
@@ -80,19 +75,24 @@
     padding: 1vw;
 }
 
-/* ABOUT STYLING */
-
-#aboutContainerCenter {
-    justify-content: center;
-    font-size: x-large;
-    margin-top: 48px;
-}
-
-#aboutContainerContent {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+.CScontainerCcol img {
+    width: 40vw;
 
 
-/* END ABOUT STYLING*/
+
+    /* ABOUT STYLING */
+
+    #aboutContainerCenter {
+        justify-content: center;
+        font-size: x-large;
+        margin-top: 48px;
+    }
+
+    #aboutContainerContent {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* END ABOUT STYLING*/

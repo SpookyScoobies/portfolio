@@ -22,6 +22,15 @@ body {
     flex-direction: column;
 }
 
+CScontainerCcol img {
+    width: 100%;
+
+}
+
+.CScontainerCrow p {
+    background-color: #3D4073;
+
+}
 
 
 /* ABOUT STYLING */

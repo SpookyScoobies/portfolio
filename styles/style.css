@@ -203,13 +203,34 @@ header:not(.header) {
   border: #3D4073;
 }
 
-
-.CScontainerCcol {
+.CScontainerCcol p {
   background-color: #d9910d;
   margin: 2vw;
   padding: 1vw;
-  border: white;
+  /* border: .5vw solid #f2c438;
+  outline: .5vw solid #A62f03; */
   border-radius: 25px;
+}
+
+.CScontainerCcol img {
+  background-color: #3D4073;
+  margin: 4vw;
+  padding: 1vw;
+  border: 1vw solid #f2c438;
+  border-radius: 25px;
+
+}
+
+.CScontainerCrow p {
+  background-color: #f2c438;
+  padding: 1vw;
+  border-radius: 25px;
+  border: .5vw solid white;
+  margin: 4vw;
+}
+
+.CScontainerCcol strong {
+  font-size: xx-large;
 }
 
 /* ABOUT STYLING */
