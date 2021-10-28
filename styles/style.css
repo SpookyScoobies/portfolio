@@ -64,6 +64,7 @@ a {
   transition: max-height 0.2s ease-out;
 }
 
+
 /* menu icon */
 
 .header .menu-icon {
@@ -224,6 +225,14 @@ header:not(.header) {
   font-size: xx-large;
 }
 
+
+#csCenter {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+
+}
+
 /* ABOUT STYLING */
 
 #home {
@@ -255,6 +264,7 @@ header:not(.header) {
   padding: 1vh;
   border: 2vw double #d9910d;
 }
+
 
 /* END ABOUT STYLING*/
 
