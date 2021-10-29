@@ -10,7 +10,7 @@
 
 body {
     font-family: "Source Sans Pro";
-    background-color: #FFFBED;
+    background-color: #fffbed;
 }
 
 /* HOME PAGE  */
@@ -35,10 +35,7 @@ body {
 
 CScontainerCcol img {
     width: 100%;
-
 }
-
-
 
 /* ABOUT STYLING */
 
@@ -51,7 +48,6 @@ CScontainerCcol img {
     align-items: center;
 }
 
-
 #aboutContainerContent {
     align-items: center;
 }
@@ -61,7 +57,5 @@ CScontainerCcol img {
     margin: 5vh;
     padding: 2vh;
 }
-
-
 
 /* END ABOUT STYLING*/

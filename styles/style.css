@@ -34,8 +34,24 @@ a {
   padding: 1vw;
   list-style: none;
   overflow: hidden;
+<<<<<<< HEAD
 
 }
+=======
+}
+
+/* .header li a {
+  display: flex;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  border-radius: 25px;
+} */
+
+
+>>>>>>> 87df98ac244e63e98b8fbc631992d936af42d742
 
 
 .header li a:hover,
