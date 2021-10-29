@@ -31,27 +31,16 @@ a {
 
 .header ul {
   margin: 0;
-  padding: 0;
+  padding: 1vw;
   list-style: none;
   overflow: hidden;
-  background-color: #3D4073;
-  
-  
-}
 
-.header li a {
-  display: block;
-  padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
-  text-decoration: none;
-  color: white;
-  font-style: italic;
 }
 
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #A62f03;
 }
 
 .header .logo {
@@ -192,6 +181,7 @@ header:not(.header) {
 /* HOMEPAGE END */
 /* CASE STUDY / ABOUT ME SECTION */
 
+
 .CScontainerCcol {
   display: flex;
 }
@@ -213,20 +203,17 @@ header:not(.header) {
   margin: 2vw;
   padding: 1vw;
   border-radius: 25px;
+  font-size: 5vw;
 }
+
+
 
 .CScontainerCcol img {
-  background-color: #d9910d;
-  /* padding: 8vh 50vw 8vh 50vw; */
-  padding: 4vh 20vw;
+  background-color: #A62f03;
+  padding: 4vh 35vw;
+
 }
 
-.CScontainerCrow p {
-  padding: 1vw;
-  border-radius: 25px;
-  border: 0.5vw solid white;
-  margin: 4vw;
-}
 
 .CScontainerCcol strong {
   font-size: xx-large;
@@ -262,29 +249,34 @@ header:not(.header) {
 #aboutContainerContent p {
   padding: 4vw;
   margin: 5vw;
-  border-radius: 25px;
+  font-size: 1.5em;
 }
 
 #aboutContainerContent img {
   width: 100%;
   margin: 0vh 5vh 5vh 0vh;
+}
 
 
 
-  /* END ABOUT STYLING*/
+/* END ABOUT STYLING*/
 
 
 
-  /* FOOTER  */
+/* FOOTER  */
 
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1vh;
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3d4073;
+  padding: 1vh 0vw;
+}
 
-  }
+.footer a {
+  color: white;
+}
 
-  /* colors 
+/* colors 
 lighter blue #3D4073
 darker blue #2f3659
 yellow #f2c438

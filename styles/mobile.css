@@ -1,3 +1,13 @@
+.header li a {
+    display: flex;
+    padding: 20px 20px;
+    border-right: 1px solid #F4F4F4;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    background-color: #3D4073;
+}
+
 body {
     font-family: "Source Sans Pro";
     background-color: #FFFBED;

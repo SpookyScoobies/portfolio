@@ -1,3 +1,16 @@
+.header li a {
+    background-color: #3D4073;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 6px;
+    border-radius: 20px;
+}
+
 /* HOME PAGE */
 
 .HPcontainerC {
@@ -7,18 +20,32 @@
 .HPcontainerR,
 .HPcontainerL {
     flex-direction: column;
-    border-top: 5px solid #f4f4f4;
+
 }
+
+.HPcontainerR p {
+    font-size: 2vw;
+
+}
+
+.HPcontainerL p {
+    font-size: 2vw;
+
+}
+
+
 
 .HPcontainerR {
     align-items: flex-end;
     padding-right: 5vw;
+
 }
 
 .HPcontainerL {
     align-items: flex-start;
     width: 40vw;
     padding-left: 5vw;
+
 }
 
 .imgIntro img {
@@ -57,6 +84,15 @@
 .CScontainerCrow {
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.CScontainerCrow p {
+    min-width: 25vw;
+    max-width: 40vw;
+    font-size: 2vw;
 }
 
 .CScontainerL {
@@ -68,13 +104,21 @@
 }
 
 .CScontainerCrow img {
-    width: 23vw;
-    padding: 1vw;
+    min-width: 15vw;
+    max-width: 30vw;
+    max-height: 30vh;
+
 }
+
 
 .CScontainerCcol img {
     width: 30vw;
 }
+
+.wtf {
+    text-align: justify;
+}
+
 
 /* ABOUT STYLING */
 
