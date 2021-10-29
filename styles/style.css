@@ -261,25 +261,23 @@ header:not(.header) {
 #aboutContainerContent img {
   width: 100%;
   margin: 0vh 5vh 5vh 0vh;
-  padding: 1vh;
-  border: 2vw double #d9910d;
-}
-
-
-/* END ABOUT STYLING*/
 
 
 
-/* FOOTER  */
+  /* END ABOUT STYLING*/
 
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 1vh;
 
-}
 
-/* colors 
+  /* FOOTER  */
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+
+  }
+
+  /* colors 
 lighter blue #3D4073
 darker blue #2f3659
 yellow #f2c438
